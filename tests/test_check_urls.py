@@ -2,10 +2,19 @@ import pytest
 import sys
 from pathlib import Path
 from unittest.mock import Mock, patch
+import importlib.util
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+# Load the check-urls module (hyphenated filename)
+spec = importlib.util.spec_from_file_location(
+    "check_urls",
+    Path(__file__).parent.parent / "scripts" / "check-urls.py"
+)
+check_urls = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(check_urls)
 
-from check_urls import check_url, check_all_urls
+# Import the functions we need
+check_url = check_urls.check_url
+check_all_urls = check_urls.check_all_urls
 
 
 def test_check_url_success():

@@ -1,0 +1,10 @@
+{
+  "name": "PackageName",
+  "description": "Comprehensive description",
+  "author": "brady-zip",
+  "homepage": "https://github.com/brady-zip/package-name",
+  "version": "1.0.0",
+  "license": "MIT",
+  "sublime_text": ">=3000",
+  "dependencies": []
+}

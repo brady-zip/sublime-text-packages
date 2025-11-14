@@ -1,4 +1,25 @@
 {
   "schema_version": "4.0.0",
-  "packages": []
+  "packages": [
+    {
+      "name": "Changed Filter",
+      "description": "Quick panel filter for git changed files with staging status",
+      "author": "brady-zip",
+      "homepage": "https://github.com/brady-zip/sublime-changed-filter",
+      "previous_names": [],
+      "labels": [],
+      "readme": "https://raw.githubusercontent.com/brady-zip/sublime-changed-filter/main/README.md",
+      "issues": "https://github.com/brady-zip/sublime-changed-filter/issues",
+      "donate": null,
+      "buy": null,
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://github.com/brady-zip/sublime-changed-filter/archive/refs/tags/1.0.0.zip",
+          "date": "2025-01-14 12:00:00",
+          "sublime_text": ">=3000"
+        }
+      ]
+    }
+  ]
 }

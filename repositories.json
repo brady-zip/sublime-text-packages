@@ -14,6 +14,12 @@
       "buy": null,
       "releases": [
         {
+          "version": "1.0.4",
+          "url": "https://github.com/brady-zip/sublime-changed-filter/archive/refs/tags/1.0.4.zip",
+          "date": "2026-01-09 14:25:03",
+          "sublime_text": ">=3000"
+        },
+        {
           "version": "1.0.3",
           "url": "https://github.com/brady-zip/sublime-changed-filter/archive/refs/tags/1.0.3.zip",
           "date": "2026-01-09 11:56:33",
